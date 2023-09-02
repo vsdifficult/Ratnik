@@ -3,8 +3,7 @@ import pyautogui as p
 
 from pil import ImageGrab
 from aiogram import types, Bot, Dispatcher, executor 
-#from config.config import UA  
-#from files.info import main__info
+
 
 bot = Bot(token="your_token") 
 dp = Dispatcher(bot) 
